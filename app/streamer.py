@@ -10,7 +10,7 @@ class Streamer:
         if not ret:
             raise Exception("Kamera görüntüsü alınamadı")
 
-        # Görüntüyü yatay olarak çevir (Ayna görüntüsü)
+        #(Ayna görüntüsü)
         frame = cv2.flip(frame, 1)
 
         return frame
